@@ -1,5 +1,6 @@
 <template>
-    <li class="list-group-item media" @click="onVideoSelected">
+    <li class="list-group-item media" 
+    @click="onVideoSelected">
         <img class="mr-3" :src="thumbnailUrl"/>
         <div class="media-body">
             {{ video.snippet.title }}
